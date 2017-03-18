@@ -7,17 +7,17 @@ app.use(morgan('combined'));
 
 
 var articles = { 
-                  `article-one` :{
-                title:'Article One| Kunal sali',
+                    `article-one`: {
+                    title:'Article One| Kunal sali',
                 heading:'Article one',
                 date:'apr 18',
                 content: `<p>
-                This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article.
-                </p>
-                <p>
-                 This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article.
-                </p>`
-                },
+                        This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article.
+                    </p>
+                    <p>
+                         This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article.
+                    </p>`
+                    },
                   `article-two` :{
                 title:'Article Two| Kunal sali',
                 heading:'Article two',
@@ -39,7 +39,7 @@ var articles = {
                     <p>
                          This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article. This is content for my article.
                     </p>`
-            }
+                  }
                 };
             
 
