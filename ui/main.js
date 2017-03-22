@@ -54,7 +54,7 @@ submit.onclick = function () {
   };
   
   //make the request
-  request.open('GET', 'http://kunalsali.imad.hasura-app.io/submit-name?name=' +name, true);
+  request.open('GET', 'http://kunalsali.imad.hasura-app.io/submit-name?name='+name, true);
   request.send(null);
 };
   
