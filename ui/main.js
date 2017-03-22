@@ -20,6 +20,6 @@ button.onclick = function () {
   };
   
   //make the request
-  request.open('GET', 'http://kunalsali.imad.hasura-app.io/', true);
+  request.open('GET', 'http://kunalsali.imad.hasura-app.io/counter', true);
   request.send(null);
 };
