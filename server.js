@@ -8,7 +8,7 @@ var config = {
     database: 'kunalsali',
     host: 'db.imad.hasura-app.io',
     port: '5432',
-    password: process.env.DB_PASSWORD
+    password: 'db-kunalsali-72737'
 };
 
 var app = express();
@@ -127,6 +127,7 @@ app.get('/submit-name', function (req, res){
 app.get('/articles/:articlename', function (req, res){
     //articlename == article-one
     //articles [articlename]== {}content object for article-one
+    //select  
     
     pool.query("SELECT * FROM article WHERE title = " + req.params.articleName, function (err, result) {
         if (err) {
