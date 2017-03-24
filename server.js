@@ -8,7 +8,7 @@ var config = {
     database: 'kunalsali',
     host: 'db.imad.hasura-app.io',
     port: '5432',
-    password: 'db-kunalsali-72737'
+    password: process.env.DB_PASSWORD
 };
 
 var app = express();
